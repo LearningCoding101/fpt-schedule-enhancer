@@ -1,0 +1,132 @@
+body.enhanced-ui {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #f0f2f5;
+  color: #000000d9;
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 2px;
+  padding: 24px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1890ff;
+}
+thead {
+  height: 50px;
+}
+.enhanced-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.enhanced-table th,
+.enhanced-table td {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.enhanced-table th {
+  background-color: #fafafa;
+  color: #000000d9;
+  font-weight: 500;
+}
+
+.enhanced-table tr:hover {
+  background-color: #e6f7ff;
+}
+
+.enhanced-table td {
+  height: 50px;
+}
+
+.high-grade {
+  background-color: #f6ffed;
+}
+
+.term-item,
+.course-item {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 4px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+  text-align: center;
+  min-width: 120px;
+}
+
+.term-item:hover,
+.course-item:hover {
+  background-color: #e6f7ff;
+}
+
+.term-item.active,
+.course-item.active {
+  background-color: #1890ff;
+  color: #ffffff;
+}
+
+.label-success {
+  background-color: #52c41a;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+
+.breadcrumb {
+  background-color: #f5f5f5;
+  padding: 8px 16px;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #40a9ff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body.enhanced-ui {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  .enhanced-table th,
+  .enhanced-table td {
+    padding: 8px;
+  }
+
+  .term-item,
+  .course-item {
+    min-width: 100px;
+    font-size: 12px;
+  }
+}

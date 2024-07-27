@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "FPT Grade Report Enhancer",
+    "version": "1.0",
+    "description": "Improves the UI of FPT University's grade report page",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://fap.fpt.edu.vn/Grade/StudentGrade.aspx*"],
+        "css": ["styles.css"],
+        "js": ["content.js"]
+      }
+    ]
+  }
